@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by Anasimos HD</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ግሪን ራይድ  </title>
+</head>
+<body>
+
+<header>
+    <h1>ግሪን ራይድ </h1>
+</header>
+
+<div id="login-section" class="form-container">
+    <h2>Login</h2>
+    <input type="text" id="username" placeholder="Username" required>
+    <input type="password" id="password" placeholder="Password" required>
+    <button onclick="login()">Login</button>
+</div>
+
+<div id="sales-section" class="form-container">
+    <h2>Register Daily Sale</h2>
+    <input type="text" id="customer-name" placeholder="Customer Name" required>
+    <input type="text" id="customer-phone" placeholder="Customer Phone" required>
+    <input type="date" id="sale-date" required>
+    <input type="file" id="flower-image" accept="image/*" required>
+    <input type="number" id="sale-amount" placeholder="Sale Amount (in ETB)" required>
+    <button onclick="registerSale()">Register Sale</button>
+
+    <h2>Daily Sales</h2>
+    <table id="sales-table">
+        <thead>
+            <tr>
+                <th>Customer Name</th>
+                <th>Phone</th>
+                <th>Date</th>
+                <th>Image</th>
+                <th>Amount (ETB)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc23xQhtfsPODKZYHFlXyiYar7rFW78ReRIFPGUKYUk30aPuQ/viewform?embedded=true" width="350" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> 
+        </tbody>
+    </table>
+
+    <h3>Total Sales: <span id="total-sales">0</span> ETB</h3>
+</div>
+
+</body><iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS3ktMJ7xynKKp5W3VL7eXXIL_NMHkdUmXEbysZusj7C_EclYbMCMpcsQJU-axgtpSJ3mpuuZsOoE_T/pubhtml?widget=true&amp;headers=false"></iframe>
+  </body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
